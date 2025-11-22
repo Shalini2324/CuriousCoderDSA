@@ -1,3 +1,5 @@
+Write a program to check whether a triangle can be formed with the given values for the angles.
+
 import java.util.Scanner;
 class program2{
     public static void main(String[] args){
