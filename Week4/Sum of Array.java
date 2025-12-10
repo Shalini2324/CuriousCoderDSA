@@ -10,7 +10,7 @@ class Solution {
 }
 
 //online compiler
-class Main {
+class Sum of Array{
     public static void main(String[] args) {
         int n=5;
         int sum=0;
