@@ -19,7 +19,6 @@ class Solution {
 
         if (n < 2) {
             ans.add(-1);
-            ans.add(-1);
             return ans;
         }
 
@@ -34,7 +33,7 @@ class Solution {
 
         if (second == Integer.MAX_VALUE) {
             ans.add(-1);
-            
+            return ans;
         } else {
             ans.add(min);
             ans.add(second);
