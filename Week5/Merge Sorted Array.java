@@ -6,9 +6,13 @@ class Solution {
 
         while (i < m && j < n) {
             if (num1[i] < num2[j]) {
-                num3[k++] = num1[i++];
+                num3[k] = num1[i];
+                k++;
+                i++;
             } else {
-                num3[k++] = num2[j++];
+                num3[k] = num2[j];
+                k++;
+                j++;
             }
         }
 
